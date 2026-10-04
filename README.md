@@ -28,7 +28,7 @@ Features:
 - **Full-Screen Slideshow**: Fullscreen presentation mode with configurable transition intervals.
 - **Image Orientation & Operations**: Rotate, flip, zoom-to-fit, and view images without modifying original files.
 - **EXIF & Metadata Inspection**: View detailed image metadata, camera settings, and file properties.
-- **Broad Format Support**: Displays standard image formats including JPEG, PNG, SVG, TIFF, BMP, ICO, and more via gdk-pixbuf.
+- **Extensive Format Support**: Supports standard formats (JPEG, PNG, SVG, TIFF, BMP, ICO) as well as modern and extended formats including WebP, AVIF, HEIF, JPEG-XL, and digital camera RAW images.
 
 ### Included Plugins
 

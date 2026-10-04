@@ -3,7 +3,6 @@ set -eu
 
 ARCH=$(uname -m)
 VERSION=$(pacman -Q xviewer 2>/dev/null | awk '{print $2; exit}')
-[ -f ~/version ] && VERSION=$(cat ~/version)
 export ARCH VERSION
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.hook"
@@ -14,10 +13,10 @@ export DEPLOY_PYTHON=1
 
 # Deploy dependencies
 quick-sharun \
-  /usr/bin/xviewer \
-  /usr/lib/xviewer \
-  /usr/share/xviewer \
-  /usr/lib/libgtk-3.so*
+	/usr/bin/xviewer \
+	/usr/lib/xviewer \
+	/usr/share/xviewer \
+	/usr/lib/libgtk-3.so*
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
