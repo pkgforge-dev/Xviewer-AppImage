@@ -1,21 +1,44 @@
 <div align="center">
 
-# TEMPLATE-AppImage 🐧
+# Xviewer-AppImage 🐧
 
-[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/TEMPLATE-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
-[![CI Build Status](https://github.com/pkgforge-dev/TEMPLATE-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
-[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/TEMPLATE-AppImage)](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest)
+[![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Xviewer-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Xviewer-AppImage/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/Xviewer-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/Xviewer-AppImage/releases/latest)
+[![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/Xviewer-AppImage)](https://github.com/pkgforge-dev/Xviewer-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/pkgforge-dev.png" width="128" />
+  <img src="https://raw.githubusercontent.com/linuxmint/xviewer/master/data/icons/scalable/apps/xviewer.svg" width="128" alt="Xviewer Logo" />
 </p>
-
 
 | Latest Stable Release | Upstream URL |
 | :---: | :---: |
-| [Click here](https://github.com/pkgforge-dev/TEMPLATE-AppImage/releases/latest) | [Click here](https://github.com/pkgforge-dev/Anylinux-AppImages) |
+| [Click here](https://github.com/pkgforge-dev/Xviewer-AppImage/releases/latest) | [Click here](https://github.com/linuxmint/xviewer) |
 
 </div>
+
+---
+
+### Description
+
+Xviewer is a fast and lightweight image viewer developed by Linux Mint as part of the X-Apps project. Based on Eye of GNOME (eog), it utilizes the gdk-pixbuf library to display images with minimal and constant memory usage, even when zooming and panning across large, high-resolution images.
+
+Features:
+- **Fast & Responsive Viewing**: Smooth zooming and scrolling with constant memory usage regardless of image size.
+- **Image Collection Gallery**: Built-in thumbnail gallery bar for quick browsing of all images in a folder.
+- **Full-Screen Slideshow**: Fullscreen presentation mode with configurable transition intervals.
+- **Image Orientation & Operations**: Rotate, flip, zoom-to-fit, and view images without modifying original files.
+- **EXIF & Metadata Inspection**: View detailed image metadata, camera settings, and file properties.
+- **Broad Format Support**: Displays standard image formats including JPEG, PNG, SVG, TIFF, BMP, ICO, and more via gdk-pixbuf.
+
+### Included Plugins
+
+This AppImage bundles the official [`xviewer-plugins`](https://github.com/linuxmint/xviewer-plugins) suite:
+- **EXIF Display**: Shows camera settings and EXIF tags in the side panel and status bar.
+- **Export to Folder**: Quickly copy/export the current image to a designated directory.
+- **Map**: Displays the location where the photo was taken on an interactive map in the side panel.
+- **Slideshow Shuffle**: Shuffles and randomizes image order during slideshow mode.
+- **Python Console**: Interactive Python console for debugging and scripting within Xviewer.
+- **Send by Mail**: Attach and send the current image directly using your email client.
 
 ---
 
@@ -32,7 +55,6 @@ Self-updater is disabled by default if AppImage managers like [am](https://githu
 <details>
   <summary><b><i>raison d'être</i></b></summary>
     <img src="https://github.com/user-attachments/assets/d40067a6-37d2-4784-927c-2c7f7cc6104b" alt="Inspiration Image">
-  </a>
 </details>
 
 ---
