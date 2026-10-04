@@ -10,6 +10,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export DESKTOP=/usr/share/applications/xviewer.desktop
 export ICON=/usr/share/icons/hicolor/scalable/apps/xviewer.svg
 export APPNAME=Xviewer
+export GTK_FIX_NONSENSE=1
 export DEPLOY_PYTHON=1
 
 # Deploy dependencies
